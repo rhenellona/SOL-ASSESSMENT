@@ -21,7 +21,7 @@ For the total supply, I used uint (unsigned integer) since there should be no ne
 
 * Second requirement, my contract should have a mapping of addresses to balances (address => uint)
 
-``` blue
+```solidity
   mapping (address => uint) public balances;
 ```
 In here, we used mapping, address to uint and make it public. The purpose of this process is when an addresss pass into here, its gonna return
