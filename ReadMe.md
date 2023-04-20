@@ -29,7 +29,7 @@ the token amount that the address contains.
 
 * Create a mint function that takes two parameters: an address and a value. The function then increases the total supply by that number and increases the balance of the address by that amount.
 
-```ruby
+```solidity
  function mint (address _address, uint _value) public {
         totalSupply += _value; 
         balances[_address] += _value;
