@@ -63,24 +63,22 @@ For the burn function, we used subtraction (-) since its purpose is to destroy t
 ### Executing program
 
 * Click the solidity compiler button on the left part of the screen, and click compile my token.
-
 * Click the deploy & run transactions button under the solidity compiler button. On that panel, click deploy. Scroll down to the deployed contracts panel and expand. In this panel, we can see buttons of the variables that we created. Click each button to check if its working. 
-* 
-## Help
+* On the deploy & run transactions panel, look for the address and copy it. 
+* On the deployed contracts panel, look for balances and paste address and click call. 
+* For mint and burn, paste the address and enter desired value. After that, click again the call button on the balances and totalSupply button.
+* Check if the program doesn't burn more than what you have. If the total supply and balance has not changed then the project is complete.
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+### NOTE
+
+* Look for the green check in every transaction that you make, if you see a green check it means that the transaction went through.
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Rhene F. Llona
+email : 8213812@ntc.edu.ph
 
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+Unlicensed.
