@@ -9,7 +9,7 @@ In this project, we are asked to create our own tokens with the following requir
 ## Process
 * So for the first requirement, my contract should have public variables that store the details about my coin (Token Name, Token Abbrv., Total Supply)
 
-```solc-js 
+```solc
 contract MyToken {
 
     string public TokenName = "BRAVE";
