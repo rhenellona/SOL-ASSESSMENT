@@ -9,7 +9,7 @@ In this project, we are asked to create our own tokens with the following requir
 ## Process
 * So for the first requirement, my contract should have public variables that store the details about my coin (Token Name, Token Abbrv., Total Supply)
 
-```solc
+```sol
 contract MyToken {
 
     string public TokenName = "BRAVE";
@@ -19,15 +19,15 @@ contract MyToken {
 In here, I used string, set it on public so it can be accessible to join this blockchain. 
 For the total supply, I used uint (unsigned integer) since there should be no negative number in this project. 
 
-* Second requirement, my contract should have a mapping of addresses to balances (address => uint)
+* Contract should have a mapping of addresses to balances (address => uint)
 
-```solidity
+```ruby
   mapping (address => uint) public balances;
 ```
 In here, we used mapping, address to uint and make it public. The purpose of this process is when an addresss pass into here, its gonna return
 the token amount that the address contains. 
 
-
+* Create a mint function that takes two parameters: an address and a value. The function then increases the total supply by that number and increases the balance of the address by that amount.
 
 
 
