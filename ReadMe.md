@@ -9,7 +9,7 @@ In this project, we are asked to create our own tokens with the following requir
 ## Process
 * So for the first requirement, my contract should have public variables that store the details about my coin (Token Name, Token Abbrv., Total Supply)
 
-```ruby
+```solidity
 contract MyToken {
 
     string public TokenName = "BRAVE";
@@ -21,7 +21,7 @@ For the total supply, I used uint (unsigned integer) since there should be no ne
 
 * Contract should have a mapping of addresses to balances (address => uint)
 
-```ruby
+```solidity
   mapping (address => uint) public balances;
 ```
 In here, we used mapping, address to uint and make it public. The purpose of this process is when an addresss pass into here, its gonna return
@@ -45,7 +45,7 @@ address and increase that balance by the value.
 * Burn function should have conditionals to make sure the balance of account is greater than or equal to the amount that is supposed to be burned.
  In this, I used if statement, so if the balance of our address is greater than or equal to the given value, then we will take it from these.
 
-```ruby
+```solidity
 function burn (address _address, uint _value) public {
         if (balances[_address] >= _value) { 
             totalSupply -= _value;
